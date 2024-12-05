@@ -1,0 +1,158 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    /* background: linear-gradient(120deg, #74ebd5, #acb6e5); */
+    color: #333;
+}
+
+/* Main container */
+.example-page {
+    background: linear-gradient(120deg, #74ebd5, #acb6e5); 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 210vh;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header styles */
+.example-header {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.example-header h1 {
+    font-size: 3rem;
+    color: #222;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #74ebd5;
+}
+
+.example-header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Video section */
+.video-section {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* padding: 20px; */
+}
+
+.decision-tree-video {
+    width: 80%; 
+    max-width: 1200px; 
+    height: auto; 
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Info section */
+.info-section {
+    margin: 20px 0;
+    background: #fffefe88;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.info-section h2 {
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.info-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info-section li {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 5px 0;
+}
+
+/* Footer styles */
+.example-footer {
+    margin-top: 20px;
+}
+
+.next-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.next-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.example-explanation {
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 2rem 0;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.example-explanation h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #fad7a0;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.example-explanation p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.example-explanation ul {
+    list-style: disc;
+    margin-left: 2rem;
+    color: #ffffff;
+}
+
+.example-explanation ul li {
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.example-explanation ul ul {
+    margin-left: 1.5rem;
+}
+
+.example-explanation ul ul li {
+    font-size: 1.1rem;
+    color: #e8f8f5;
+}
+
+.example-explanation .highlight {
+    font-weight: bold;
+    color: #f7dc6f;
+    text-shadow: 1px 1px 3px #000000;
+}
+
